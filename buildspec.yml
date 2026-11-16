@@ -21,4 +21,7 @@ phases:
 artifacts:
   files:
     - '**/*'
+  exclude-paths:
+    - 'node_modules/**/*'
+    - '.git/**/*'
   discard-paths: no
